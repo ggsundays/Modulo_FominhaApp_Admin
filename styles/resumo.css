@@ -10,7 +10,7 @@
 body {
     font-family: 'Inter', sans-serif;
     height: 100vh;
-    background-color: #FBFBEF;
+    background-color: var(--fundo);
 }
 
 main {
@@ -88,11 +88,11 @@ h4 {
     font-weight: 600;
 
     &.sim {
-        color:#52DF50;
+        color:var(--verde-sim);
     }
 
     &.nao {
-        color:#DF5052;
+        color:var(--nao);
     }
 }
 
