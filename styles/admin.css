@@ -209,3 +209,8 @@ label {
 #ultimos li a {
     all: unset;
 }
+
+.botao a {
+    color: var(--fundo);
+    text-decoration: none;
+}
