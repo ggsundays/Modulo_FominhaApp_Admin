@@ -68,9 +68,10 @@ p{
     box-shadow: 8px 8px 11px -12px rgba(66, 68, 90, 1);
 }
 
-#btn-login i{
-    width: 30px;
-}
+#btn-login a{
+   color: var(--fundo);
+   text-decoration: none;
+
 #btn-login span{
     font-size: 16px;
     font-weight: 600;
