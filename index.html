@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pergunta Escola</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="shortcut icon" href="./assets/images/fominhaAppSimbolo.png" type="image/x-icon">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.min.css"
+  />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    <main>
+        <h1>Que tal contribuir com a escola <span>?</span> </h1>
+        <img id="imagem-principal" src="assets/images/fominhaAppNomeEmbaixo.png" alt="">
+        <p>Clique no botão abaixo e começe a particpar da nossa comunidade escolar.</p>
+        
+        <div id="loading" style="color: #3AE191" class="la-square-jelly-box la-3x">
+          <div></div>
+          <div></div>
+      </div>
+
+        <button id="btn-login">
+            <i class="fab fa-google"></i> <span>Logar com @escola</span>
+        </button>
+    </main>
+        
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="scripts/main.js"></script>
+  </body>
+</html>

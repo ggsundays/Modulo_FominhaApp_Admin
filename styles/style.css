@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('cores.css');
+@import url('loading.css');
+
+:root{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    padding: 16px;
+    background: var(--fundo);   
+}
+
+main{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    color: var(--roxo);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h1 span{
+    color: var(--laranja);
+}
+
+p{
+    line-height: 24px;
+    font-size: 20px;
+    margin-top: 3rem;
+    text-align: center;
+    color:var(--textos);
+    font-weight: 500;
+}
+
+#imagem-principal{
+    margin-top: 2rem;
+    width: 250px;
+    
+}
+#loading{
+    display: none;
+}
+#btn-login {
+    width: 280px;
+    height: 60px;
+    background-color: var(--roxo);
+    cursor: pointer;
+    border-radius: 30px;
+    border: 0px solid #595cff;
+    font-size: 18px;
+    position: fixed; 
+    bottom: 50px; 
+    color: var(--fundo);
+    font-weight: 600;
+    margin-bottom: 24px;
+    box-shadow: 8px 8px 11px -12px rgba(66, 68, 90, 1);
+}
+
+#btn-login i{
+    width: 30px;
+}
+#btn-login span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+}

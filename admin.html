@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Participe efetivamente da escola</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../styles/admin.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.min.css"
+    />
+
+    <script type="module" defer src="../scripts/admin.js"></script>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <section id="cabecalho">
+      <div>
+        <p>Painel Gerenciador</p>
+        <h1 id="usuarioEmail"></h1>
+      </div>
+      <img
+        src="../assets/images/fominhaAppSimbolo.png"
+        alt=""
+        id="usuarioImage"
+      />
+    </section>
+    <hr />
+
+    <section class="formulario">
+      <label for="dataCardapio">Data </label>
+      <input
+        type="date"
+        name="dataCardapio"
+        id="dataCardapio"
+        class="input-customize"
+      />
+
+      <label for="cardapio">Cardápio </label>
+      <input
+        type="text"
+        name="cardapio"
+        id="cardapio"
+        class="input-customize"
+      />
+
+      <div class="container-turnos">
+        <label class="form-control">
+          <input type="checkbox" name="checkbox" value="manha" />
+          Manhã
+        </label>
+        <label class="form-control">
+          <input type="checkbox" name="checkbox" value="tarde" />
+          Tarde
+        </label>
+        <label class="form-control">
+          <input type="checkbox" name="checkbox" value="noite" />
+          Noite
+        </label>
+      </div>
+
+      <button class="botao">
+        <i class="fa-solid fa-bowl-food"></i> 
+        <span>Salvar</span>
+      </button>
+    </section>
+
+    <!-- Listas -->
+
+    <section class="lista">
+        <h5 id="titulo-ultimos">Últimos cardápios</h5>
+        <ul id="ultimos">
+
+        </ul>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
