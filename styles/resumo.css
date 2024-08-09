@@ -79,7 +79,7 @@ h4 {
 .interesses-rotulo {
     justify-self: center;
     color: var(--textos);
-
+    font-size:50px;
 }
 
 .interesses-digito {
