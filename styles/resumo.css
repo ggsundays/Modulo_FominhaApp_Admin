@@ -82,18 +82,18 @@ h4 {
     font-size:50px;
 }
 
-.interesses-digito {
+.interesses-digito-sim {
     justify-self: center;
     font-size: 60px;
     font-weight: 600;
+    color: var(--verde-sim);
+}
 
-    &.sim {
-        color: var(--verde-sim);
-    }
-
-    &.nao {
-        color: var(--nao);
-    }
+.interesses-digito-nao {
+    justify-self: center;
+    font-size: 60px;
+    font-weight: 600; 
+    color: var(--nao);
 }
 
 
